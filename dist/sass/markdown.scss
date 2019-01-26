@@ -1,0 +1,89 @@
+.language-js {
+  width: calc(100vw - 260px - 140px);
+}
+
+.markdown {
+  //对应UI新添加样式
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 26px;
+  }
+  h4 {
+    margin-bottom: 18px;
+  }
+
+
+  table {
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 36px;
+    thead {
+      th {
+        height: 38px;
+        background: #f4f4f4;
+        font-size:16px;
+        color:#323232;
+        padding: 0px 30px;
+        text-align: left;
+        line-height: 16px;
+        min-width: 48px;
+      }
+      th:nth-child(2){
+        padding: 0px 10px;
+      }
+    }
+    td {
+      height: 50px;
+      font-size:12px;
+      color:#323232;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0px 30px;
+      line-height: 16px;
+    }
+    td:nth-child(2){
+      padding: 0px 10px;
+    }
+  }
+
+  //code部分隐藏
+  .source {
+    display: none;
+  }
+  // .example {
+  //   margin-bottom: 50px;
+  // }
+
+  //示例部分样式
+  .markdown-warp {
+    border: 1px solid #e0e0e0;
+    padding: 24px 30px;
+    margin-bottom: 50px;
+  }
+  .markdown-title {
+    font-size: 16px;
+    color: #323232;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  .markdown-info {
+    font-size: 12px;
+    color: #727272;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+  .markdown-content {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 28px
+  }
+}
+
+.markdown>div>p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 63px;
+    line-height: 24px;
+  }
