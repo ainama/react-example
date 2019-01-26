@@ -4,7 +4,7 @@
 
 ```
   install [nodejs](https://nodejs.org/en/)
-  $ cd study
+  $ cd react-example
   $ npm install
   $ npm run build
   open study/demoXX/index.htm
