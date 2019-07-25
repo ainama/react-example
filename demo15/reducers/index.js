@@ -15,7 +15,7 @@ const defaultState = {
   ]
 };
 
-export function todo(state = defaultState, action) {
+export function reducer(state = defaultState, action) {
   switch (action.type) {
     case 'ADD_TODO': {
       let _todoList = state.todoList;
